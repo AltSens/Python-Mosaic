@@ -25,10 +25,6 @@ Another drawback is that the MSE algorithm tends to produce mosaic images that a
 
 Additionally, MSE algorithm can be computationally expensive, especially when working with high-resolution images or large libraries of tile images, as the algorithm needs to compare each pixel in the source image to each pixel in each tile image. This can be a problem when working with low-powered computers or when a large number of images need to be processed.
 
-Finally, MSE algorithm does not take into account the spatial relationship between the tiles, which can lead to a mosaic that looks disconnected or disjoint.
-
-Overall, while the MSE algorithm is a useful tool for creating digital mosaics, it is important to be aware of its limitations and to consider other options when creating a digital mosaic.
-
 # Fast Color Transfer Algorithm
 
 Fast color transfer is an algorithm that aims to overcome some of the drawbacks of the Mean Squared Error (MSE) algorithm by transferring the color palette of the source image to the tile images before creating the mosaic.
