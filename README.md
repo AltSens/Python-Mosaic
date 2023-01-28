@@ -1,16 +1,4 @@
 # python_mosaic
-Mosaics are artworks made up of small pieces of colored glass, stone, or other materials, arranged to form a pattern or image. The history of mosaics dates back to ancient times, with examples of mosaics from ancient Mesopotamia, Egypt, and Greece. In ancient Rome, mosaics were used to decorate floors, walls, and ceilings in both private homes and public buildings. The Romans also developed the technique of tessellation, in which small, flat pieces of stone or glass were cut to fit together without gaps.
-
-During the Byzantine Empire (330-1453 AD), mosaics reached their peak of technical and artistic achievement. Mosaics were used to decorate churches and other religious buildings, and they often depicted biblical stories and figures. The Byzantine mosaics are characterized by their bright colors, gold backgrounds, and realistic depictions of human figures.
-![image](https://user-images.githubusercontent.com/83893249/215220000-0c59eb52-93e6-4ec5-a55d-48a98fe6b044.png)
-
-
-After the fall of Byzantine Empire, in Islamic art, mosaics were mainly used to decorate the interiors of palaces and public buildings. The Islamic mosaics are characterized by their intricate geometric patterns and use of calligraphy.
-In the western world, the tradition of mosaic art fell into decline after the fall of the Roman Empire, but it was revived during the Gothic period. Mosaics were used to decorate churches and cathedrals in Italy, Spain, and other parts of Europe.
-![image](https://user-images.githubusercontent.com/83893249/215220118-629c05ce-a94d-4651-b3e6-20d1970bf538.png)
-
-During the 20th century, mosaic art saw a resurgence of interest and it continues to be a popular medium for both traditional and contemporary art.
-
 Digital mosaics are artworks that are created using digital technology, rather than traditional materials like glass or stone. They can be made using a variety of software programs, such as photo editing software, graphic design software, or specialized mosaic software.
 
 One of the main advantages of digital mosaics is that they can be created and manipulated using a computer, which allows for greater precision and control than traditional mosaic techniques. Digital mosaics can be created using a single image, or by compositing multiple images together. They can also be easily adjusted, scaled, or color corrected.
@@ -19,12 +7,11 @@ Another advantage of digital mosaics is that they can be created and shared onli
 
 Digital mosaics can be used in a variety of ways, such as in advertising, graphic design, game design, and digital art. Some artists use digital mosaics as a way to create a new interpretation of a traditional artwork, while others use them to create entirely new and original pieces.
 
-Overall digital mosaics are a new dimension in the art of mosaics which open up new possibilities and new ways of creating mosaic art.
-
-
 There are several algorithms that can be used to create digital mosaics, but one of the most common is the "mean-squared-error" (MSE) algorithm. This algorithm is used to compare the color and brightness of each pixel in the source image (the image that will be used to create the mosaic) to the corresponding pixel in the target image (the image that will be used as the individual tiles in the mosaic).
 
 The MSE algorithm works by calculating the difference between the color and brightness of each pixel in the source image and the corresponding pixel in the target image. This difference is then squared and added up for all the pixels in the image. The result is a single number that represents the overall difference between the two images.
+![image](https://user-images.githubusercontent.com/83893249/215243004-c0ded7a8-9ba6-43ef-bf13-6b9046fb4363.png)
+
 
 The MSE algorithm can be used to compare the source image to all the images in a library of potential tile images, and the image with the lowest MSE score is chosen as the best match.
 
