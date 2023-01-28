@@ -7,6 +7,8 @@ Another advantage of digital mosaics is that they can be created and shared onli
 
 Digital mosaics can be used in a variety of ways, such as in advertising, graphic design, game design, and digital art. Some artists use digital mosaics as a way to create a new interpretation of a traditional artwork, while others use them to create entirely new and original pieces.
 
+##Mean Square Error Algorithm
+
 There are several algorithms that can be used to create digital mosaics, but one of the most common is the "mean-squared-error" (MSE) algorithm. This algorithm is used to compare the color and brightness of each pixel in the source image (the image that will be used to create the mosaic) to the corresponding pixel in the target image (the image that will be used as the individual tiles in the mosaic).
 
 The MSE algorithm works by calculating the difference between the color and brightness of each pixel in the source image and the corresponding pixel in the target image. This difference is then squared and added up for all the pixels in the image. The result is a single number that represents the overall difference between the two images.
@@ -17,10 +19,6 @@ The MSE algorithm can be used to compare the source image to all the images in a
 
 Once the best match is found the target image is then replaced with the matching tile. This process is repeated for each pixel in the source image, until the entire image has been replaced with a mosaic of tile images.
 
-There are other algorithms to create digital mosaics, such as the seam carving algorithm, which allows to add or remove pixels from specific areas of an image without affecting the overall structure of the image.
-
-The Mean Squared Error (MSE) algorithm is a widely used method for creating digital mosaics, but it does have some drawbacks.
-
 One drawback is that it is sensitive to color variations and it does not take into account the texture and shape of the tile images. This can result in a mosaic that looks unnatural, as the tile images may not match the colors or patterns in the source image.
 
 Another drawback is that the MSE algorithm tends to produce mosaic images that are lower in resolution than the original image. The more tiles used, the more the resolution will decrease, This can be a problem when creating large mosaics or when the source image has a lot of fine details.
@@ -30,6 +28,8 @@ Additionally, MSE algorithm can be computationally expensive, especially when wo
 Finally, MSE algorithm does not take into account the spatial relationship between the tiles, which can lead to a mosaic that looks disconnected or disjoint.
 
 Overall, while the MSE algorithm is a useful tool for creating digital mosaics, it is important to be aware of its limitations and to consider other options when creating a digital mosaic.
+
+##Fast Color Transfer Algorithm
 
 Fast color transfer is an algorithm that aims to overcome some of the drawbacks of the Mean Squared Error (MSE) algorithm by transferring the color palette of the source image to the tile images before creating the mosaic.
 
