@@ -73,3 +73,13 @@ Ex: python3 altmosaic.py --orientation horizontal --tile_size 64 --enable_mask T
 Width: 32 tiles  Height: 24 tiles Mask: square
 </p>
 
+![Sheep_square_tilesize_30_mosaicsize_46x64](https://user-images.githubusercontent.com/83893249/215284171-af1d2252-c04f-414c-a23f-51b1514f98e6.jpeg)
+<p align = "center">
+Width: 64 tiles  Height: 46 tiles Mask: square
+</p>
+
+![result squareborder 64x64 97x64 midoverlay small](https://user-images.githubusercontent.com/83893249/215284290-2a185d8d-cf96-49e7-b71e-bc1ed542dc0b.jpeg)
+<p align = "center">
+Width: 97 tiles  Height: 64 tiles Mask: square
+</p>
+
