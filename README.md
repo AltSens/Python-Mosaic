@@ -30,8 +30,10 @@ Additionally, MSE algorithm can be computationally expensive, especially when wo
 Fast color transfer is an algorithm that aims to overcome some of the drawbacks of the Mean Squared Error (MSE) algorithm by transferring the color palette of the source image to the tile images before creating the mosaic.
 
 The algorithm first converts the source image and tile images to a color space that is more perceptually uniform, such as the LAB color space. Then, it calculates the mean and standard deviation of the color channels in the source image. These values are then used to adjust the color channels of the tile images so that they match the color palette of the source image.
+![image](https://user-images.githubusercontent.com/83893249/215278168-27c5e62f-d446-4208-9902-fc8cb7999f8a.png)
 
 By matching the color palette of the tile images to the source image, fast color transfer can produce a mosaic that looks more natural and visually pleasing than one created using the MSE algorithm alone.
+![image](https://user-images.githubusercontent.com/83893249/215278314-f315b110-502b-4c70-8aa1-5c5240743656.png)
 
 In addition, fast color transfer algorithm can also be used to improve the resolution of the mosaic by transferring the texture of the source image to the tile images. This can be achieved by extracting the texture from the source image and then transferring it to the tile images.
 
