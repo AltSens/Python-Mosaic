@@ -45,12 +45,12 @@ Overall, fast color transfer algorithm is a powerful tool for creating digital m
 
 Entry point: altmosaic.py
 Possible arguments:
-  --orientation: horizontal or vertical
+  `--orientation: horizontal or vertical
   --tile_size: Tiles are square. Both sides have equal length.
   --enable_mask: A mask is an overlay image that is used to add borders on the tile. With this project, masks are found in /Img/Masks/ forler.
   --mask_type: Let you choose from the types defined in /Config/masks.py. 
   --bgweight: The alpha channel weight of the background (tiled mosaic) 
-  --fgweight: The alpha channel weight of the foreground (main image)
+  --fgweight: The alpha channel weight of the foreground (main image)`
 
 Ex: python3 altmosaic.py --orientation horizontal --tile_size 64 --enable_mask True --mask_type swoosh --bgweight 0.5 --fgweight 0.5
   
