@@ -67,3 +67,9 @@ Ex: python3 altmosaic.py --orientation horizontal --tile_size 64 --enable_mask T
 6. The mosaic and the main image are blended together with the specified alpha level.
 7. The result is outputed to /Img/Result/
 
+## Results ##
+![Lion_square_tilesize_64_mosaicsize_24x32](https://user-images.githubusercontent.com/83893249/215284010-4dcf3545-2d14-4dad-ba9c-c91dfe4debe7.jpeg)
+<p align = "center">
+Width: 32 tiles  Height: 24 tiles Mask: square
+</p>
+
