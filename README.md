@@ -7,7 +7,7 @@ Another advantage of digital mosaics is that they can be created and shared onli
 
 Digital mosaics can be used in a variety of ways, such as in advertising, graphic design, game design, and digital art. Some artists use digital mosaics as a way to create a new interpretation of a traditional artwork, while others use them to create entirely new and original pieces.
 
-##Mean Square Error Algorithm
+# Mean Square Error Algorithm
 
 There are several algorithms that can be used to create digital mosaics, but one of the most common is the "mean-squared-error" (MSE) algorithm. This algorithm is used to compare the color and brightness of each pixel in the source image (the image that will be used to create the mosaic) to the corresponding pixel in the target image (the image that will be used as the individual tiles in the mosaic).
 
@@ -29,7 +29,7 @@ Finally, MSE algorithm does not take into account the spatial relationship betwe
 
 Overall, while the MSE algorithm is a useful tool for creating digital mosaics, it is important to be aware of its limitations and to consider other options when creating a digital mosaic.
 
-##Fast Color Transfer Algorithm
+# Fast Color Transfer Algorithm
 
 Fast color transfer is an algorithm that aims to overcome some of the drawbacks of the Mean Squared Error (MSE) algorithm by transferring the color palette of the source image to the tile images before creating the mosaic.
 
